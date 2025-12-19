@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+D:\All SpringBoot\Spring Boot - Lab\Spring Boot - Field Injection\.metadata\.plugins\org.eclipse.jdt.core
+1888700467.index
+1865797976.index
+20089745.index

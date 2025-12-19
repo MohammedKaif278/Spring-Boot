@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+<bean id="currentdate" class="java.time.LocalDateTime" factory-method="now">
+</bean>
+
+<bean id="car" class="com.example.demo.Car">
+<property name="name" value="TATA"></property>
+<property name="number" value="MH 08 1234"></property>
+<property name="dateOfManufacture" value="12-Nov-2025"></property>
+<property name="dateOfBuying" ref="currentdate"></property>
+
+</bean>
+
+<bean id="factory" class="com.example.demo.Factory">
+<property name="address" value="hyd"></property>
+<property name="car" ref="car"></property>
+</bean>
+
+</beans>

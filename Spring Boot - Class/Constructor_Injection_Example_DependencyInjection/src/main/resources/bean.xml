@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="bk" class="com.example.demo.Book"/>
+<bean id="st" class="com.example.demo.Student">
+<!-- Constructor Injection -->
+<constructor-arg ref="bk"></constructor-arg>
+</bean>
+</beans>

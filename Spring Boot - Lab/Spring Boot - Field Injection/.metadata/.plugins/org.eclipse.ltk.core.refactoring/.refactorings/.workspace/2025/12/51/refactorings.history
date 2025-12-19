@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Movie_App-Movie_Details_Display&apos; to &apos;Movie_App-Movie_Details_Display-Annotation_Based_Configuration&apos;&#x0D;&#x0A;- Original element: &apos;Movie_App-Movie_Details_Display&apos;&#x0D;&#x0A;- Renamed element: &apos;Movie_App-Movie_Details_Display&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Movie_App-Movie_Details_Display&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Movie_App-Movie_Details_Display" name="Movie_App-Movie_Details_Display-Annotation_Based_Configuration" references="true" stamp="1766170859878" version="1.0"/>
+</session>

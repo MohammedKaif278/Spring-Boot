@@ -1,0 +1,17 @@
+package com.example.demo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Hospital_Patient_Info_Viewer_Annotation_based_configuration {
+	private int patientId;
+	private String name;
+	private String disease;
+	
+	public void showPatient()
+	{
+		System.out.println("patientId : "+patientId);
+		System.out.println("name : "+name);
+		System.out.println("disease : "+disease);
+	}
+}

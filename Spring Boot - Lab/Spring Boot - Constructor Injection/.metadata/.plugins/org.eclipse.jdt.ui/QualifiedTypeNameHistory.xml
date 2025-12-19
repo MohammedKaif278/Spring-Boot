@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sun.crypto.provider.PBEKeyFactory.PBEWithHmacSHA1AndAES_256"/>
+    <fullyQualifiedTypeName name="com.example.demo.WishMessageGenerator"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="com.example.demo.Product"/>
+    <fullyQualifiedTypeName name="com.example.demo.ProductDisplay"/>
+    <fullyQualifiedTypeName name="com.example.demo.Employee"/>
+    <fullyQualifiedTypeName name="com.example.demo.EmployeeController"/>
+    <fullyQualifiedTypeName name="com.example.demo.BankAccount"/>
+    <fullyQualifiedTypeName name="com.example.demo.AccountViewer"/>
+    <fullyQualifiedTypeName name="org.springframework.core.PriorityOrdered"/>
+    <fullyQualifiedTypeName name="com.example.demo.Order"/>
+    <fullyQualifiedTypeName name="com.example.demo.AppConfig"/>
+    <fullyQualifiedTypeName name="com.example.demo.OrderService"/>
+    <fullyQualifiedTypeName name="com.example.demo.DatePrinter"/>
+    <fullyQualifiedTypeName name="java.time.DayOfWeek"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.example.demo.DiscountCalculator"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="com.example.demo.Restaurant"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.example.demo.RestaurantViewer"/>
+</qualifiedTypeNameHistroy>

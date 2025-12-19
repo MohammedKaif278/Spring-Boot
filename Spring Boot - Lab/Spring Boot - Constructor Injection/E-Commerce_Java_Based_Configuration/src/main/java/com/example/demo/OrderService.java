@@ -1,0 +1,43 @@
+package com.example.demo;
+
+
+public class OrderService {
+	private Order order;
+
+	public OrderService(Order order) {
+		super();
+		this.order = order;
+	}
+	
+	public void validateAmount()
+	{
+		if(order.getTotalAmount()>0)
+		{
+			processOrder();
+			printSummary();
+		}
+		else
+		{
+			System.out.println("Amount is invalid");
+		}
+	}
+	
+	public void processOrder()
+	{
+		order.applyDiscount();
+	}
+	
+	public void printSummary()
+	{
+		System.out.println("Order ID: "+order.getOrderId()+"\n"
+				+ "Customer: "+order.getCustomerName()+"\n"
+				+ "Items Count: "+order.getItemsCount()+"\n"
+				+ "Membership: "+order.getMembershipType()+"\n"
+				+ "Original Amount: "+order.getTotalAmount()+"\n"
+				+ "Prime Discount (10%): "+order.getPrimeDiscount()+"\n"
+				+ "Bulk Item Discount (5%): "+order.getBulkDiscount()+"\n"
+				+ "Total Discount: "+order.getTotalDiscount()+"\n"
+				+ "Final Payable Amount: "+order.getFinalAmount()+"\n"
+				+ "Order processed successfully!");
+	}
+}

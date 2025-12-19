@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+	
+	<bean id="os" class="com.example.demo.OrderService">
+	<property name="orderId" value="101"></property>
+	<property name="customerName" value="mk"></property>
+	<property name="items">
+	<map>
+	<entry key="Laptop" value="1"/>
+	<entry key="Mouse" value="2"/>
+	<entry key="Keyboard" value="1"/>
+	</map>
+	</property>
+	</bean>
+</beans>

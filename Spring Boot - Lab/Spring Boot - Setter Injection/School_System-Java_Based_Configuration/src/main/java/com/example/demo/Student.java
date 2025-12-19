@@ -1,0 +1,30 @@
+package com.example.demo;
+
+public class Student {
+	private int rollNo;
+	private String studentName;
+	private String grade;
+	
+	
+
+	public void setRollNo(int rollNo) {
+		this.rollNo = rollNo;
+	}
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+
+	public void setGrade(String  grade) {
+		this.grade = grade;
+	}
+	
+	
+	public void printStudent()
+	{
+		System.out.println("Roll no : "+rollNo);
+		System.out.println("studentName : "+studentName);
+		System.out.println("grade : "+grade);
+
+	}
+}

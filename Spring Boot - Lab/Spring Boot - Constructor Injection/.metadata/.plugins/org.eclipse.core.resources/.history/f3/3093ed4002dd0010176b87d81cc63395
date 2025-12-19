@@ -1,0 +1,79 @@
+package com.example.demo;
+
+public class Order {
+
+	 private int orderId,itemsCount;
+	 private String customerName,membershipType;
+	 private double totalAmount;
+	
+	 private double primeDiscount,bulkDiscount,totalDiscount,finalAmount;
+
+	
+	
+	public int getOrderId() {
+		return orderId;
+	}
+
+	 public int getItemsCount() {
+		 return itemsCount;
+	 }
+
+	 public String getCustomerName() {
+		 return customerName;
+	 }
+
+	 public String getMembershipType() {
+		 return membershipType;
+	 }
+
+	 public double getTotalAmount() {
+		 return totalAmount;
+	 }
+
+	 public double getPrimeDiscount() {
+		 return primeDiscount;
+	 }
+
+	 public double getBulkDiscount() {
+		 return bulkDiscount;
+	 }
+
+	 public double getTotalDiscount() {
+		 return totalDiscount;
+	 }
+
+	 public double getFinalAmount() {
+		 return finalAmount;
+	 }
+
+	public Order(int orderId, int itemsCount, String customerName, String membershipType, double totalAmount) {
+		super();
+		this.orderId = orderId;
+		this.itemsCount = itemsCount;
+		this.customerName = customerName;
+		this.membershipType = membershipType;
+		this.totalAmount = totalAmount;
+	}
+	
+	public void applyDiscount()
+	{
+		
+		if(membershipType.equals("PRIME"))
+		{
+			primeDiscount=totalAmount*0.10;
+		}
+		if(itemsCount>5)
+		{
+			bulkDiscount=totalAmount*0.05;
+		}
+		
+		 totalDiscount=primeDiscount+bulkDiscount;
+		
+		 finalAmount = totalAmount - totalDiscount;
+		
+	}
+	
+	
+	
+	
+}
