@@ -4,11 +4,22 @@
     <fullyQualifiedTypeName name="java.awt.List"/>
     <fullyQualifiedTypeName name="com.example.demo.CourseService"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="com.example.demo.OrderService"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.example.demo.TravelBookingService"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
     <fullyQualifiedTypeName name="java.awt.Menu"/>
     <fullyQualifiedTypeName name="com.example.demo.MenuService"/>
+    <fullyQualifiedTypeName name="com.example.demo.OrderService"/>
+    <fullyQualifiedTypeName name="com.example.demo.PaymentService"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.AutoConfigureAfter"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="com.example.demo.TicketService"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="com.example.demo.SalesService"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.example.demo.MonitoringService"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
 </qualifiedTypeNameHistroy>

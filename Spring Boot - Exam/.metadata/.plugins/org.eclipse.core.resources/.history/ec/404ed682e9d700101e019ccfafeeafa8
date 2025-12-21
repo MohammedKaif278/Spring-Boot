@@ -1,9 +1,0 @@
-package com.example.demo;
-
-import java.awt.List;
-
-public class CourseService {
-	Student student;
-	
-	
-}
