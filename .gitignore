@@ -1,0 +1,28 @@
+# Build
+target/
+build/
+out/
+
+# IDE
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+*.pid
+*.seed
+
+# Environment
+.env
+application-local.properties
+application-dev.properties
