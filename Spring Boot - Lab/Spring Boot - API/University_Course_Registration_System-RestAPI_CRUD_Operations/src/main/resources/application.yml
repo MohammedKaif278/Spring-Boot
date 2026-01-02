@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: University_Course_Registration_System-RestAPI_CRUD_Operations
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/restapi
+    username: root
+    password: root

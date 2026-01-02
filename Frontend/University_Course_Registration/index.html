@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Register Course</h2>
+
+    <div class="input-group">
+        <input id="registrationId" placeholder="Registration ID"><br>
+        <input id="studentId" placeholder="Student ID"><br>
+        <input id="studentName" placeholder="Student Name"><br>
+        <input id="courseCode" placeholder="Course Code"><br>
+        <input id="courseName" placeholder="Course Name"><br>
+        <input id="semester" placeholder="Semester"><br>
+        <input id="credits" placeholder="Credits"><br>
+
+        <button onclick="registerCourse()">Register</button>
+    </div>
+
+    <p id="message"></p>
+
+    <div id="loadRegistrations">
+
+        <button onclick="loadRegistrations()" >Load Registrations</button>
+    </div>
+    <h3>All Registration</h3>
+
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Registration ID</th>
+                <th>Student ID</th>
+                <th>Student Name</th>
+                <th>Course Code</th>
+                <th>Course Name</th>
+                <th>Semester</th>
+                <th>Credits</th>
+                <th>Registration Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
