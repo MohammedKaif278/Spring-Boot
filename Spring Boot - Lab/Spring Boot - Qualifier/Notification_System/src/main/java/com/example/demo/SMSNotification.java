@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class SMSNotification implements Notification{
 
 	@Override
-	public void notification(String msg) {
+	public void send(String msg) {
 		System.out.println("Notification System Initialized");
 		System.out.println("SMS Notification Selected");
 		System.out.println("Sending SMS Notification");

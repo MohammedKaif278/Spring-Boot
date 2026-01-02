@@ -9,10 +9,10 @@ public class NotificationService {
 	
 	@Autowired
 	@Qualifier("email")
-	Notification notification;
+	private Notification notification;
 	
 	public void display()
 	{
-		notification.notification("Your order has been shipped");
+		notification.send("Your order has been shipped");
 	}
 }
