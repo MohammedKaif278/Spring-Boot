@@ -9,7 +9,7 @@ public class PaymentService {
 	
 	@Autowired
 	@Qualifier("cc")
-	Payment payment;
+	private Payment payment; // Field Injection
 	
 	
 	public void display(double amount)
