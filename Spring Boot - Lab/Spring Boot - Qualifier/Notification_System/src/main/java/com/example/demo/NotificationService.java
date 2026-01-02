@@ -9,7 +9,7 @@ public class NotificationService {
 	
 	@Autowired
 	@Qualifier("email")
-	private Notification notification;
+	private Notification notification; //Field Injection
 	
 	public void display()
 	{
