@@ -8,10 +8,10 @@
 		<version>4.0.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.inventory</groupId>
-	<artifactId>Product_Inventory_Management_System</artifactId>
+	<groupId>com.example</groupId>
+	<artifactId>StudentExam</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Product_Inventory_Management_System</name>
+	<name>StudentExam</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -81,7 +81,6 @@
 	</dependencies>
 
 	<build>
-	<finalName>productinventory</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
